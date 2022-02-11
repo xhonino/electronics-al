@@ -1,1 +1,1 @@
-web: gunicorn backend.wsgi --log-file - sonata.wsgi:application
+web: gunicorn backend.wsgi --log-file -
